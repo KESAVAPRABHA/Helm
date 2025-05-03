@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: kesavaprabhal/quote-app
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  name: quote-app
+  type: LoadBalancer
+  port: 3000
+
+resources: {}

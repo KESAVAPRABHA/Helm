@@ -1,0 +1,5 @@
+apiVersion: v2
+name: quote-app
+description: Node.js quote generator
+version: 0.1.0
+appVersion: "1.0"
